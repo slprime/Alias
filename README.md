@@ -1,4 +1,4 @@
-#Defining Aliases
+# Defining Aliases
 You can define an alias for a file path or URL by calling $alias->setAlias():
 
 ```php
@@ -19,7 +19,7 @@ $alias->setAlias('@foobar', '@foo/bar');
 ```
 
 
-#Resolving Aliases
+# Resolving Aliases
 You can call $alias->getAlias() to resolve a root alias into the file path or URL it represents. The same method can also resolve a derived alias into the corresponding file path or URL:
 
 ```php
